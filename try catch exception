@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main{
+    public static void main (String [] args){
+        Scanner sc=new Scanner (System.in);
+        int a,b,c;
+        System.out.print("Enter first no:");
+        a=sc.nextInt();
+        System.out.print("Enter Second no:");
+        b=sc.nextInt();
+        try {
+          c=a/b;
+        
+          System.out.println("result"+c);
+        }
+        catch(Exception e){
+            System.out.print("problem in divide");
+        }
+        
+        
+        System.out.println("some other work");
+        
+        
+        
+    }
+    
+    
+}
